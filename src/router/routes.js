@@ -1,12 +1,5 @@
 export default[
   {
-    path: '/HelloWorld',
-    name: 'HelloWorld',
-    component: resolve => {
-      require(['@/components/HelloWorld'], resolve)
-    }
-  },
-  {
     path: '/login',
     name: 'login',
     meta: {

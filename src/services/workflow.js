@@ -8,8 +8,4 @@ const createModel = params => axios.post('/models/createModel', params); // 开�
 
 const findTask = params => axios.post('/models/findTask', params); // 获取我的任务和待办任务
 
-export const deployments = params => axios.post('/models/deployments', params); // 完成任务
-
-export const findTaskDetails = params => axios.post('/models/findTaskDetails', params); // 获取任务详情
-
 export default {initpage, deployment, createModel, findTask}

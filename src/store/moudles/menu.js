@@ -41,7 +41,7 @@ const actions = {
   handleMenu: ({commit}) => {
     commit('MENU', datas.Items);
     let data = {
-      path: '/main_min',
+      path: '/index',
       menuActive: '1-1',
       menuOpened: '1'
     };
